@@ -1,2 +1,2 @@
 # Data_Analyst_Jobs
-I perform an analysis of the Data Analyst Jobs information such as, Average Salary, Job Location, Most Used Tools, etc.
+I perform an analysis and prediction on the Data Analyst Jobs dataset which contains more than 1000 job listing for data analyst positions, with features such as Salary Estimate, Job Location, Company Rating, Industry and more.
