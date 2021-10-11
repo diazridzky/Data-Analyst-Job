@@ -29,9 +29,23 @@ After importing the data, I needed to clean it up by doing the following:
 * Replaced the -1 (Which seems like a bug when the data was inputted or probably human error) with NaN 
 * Dropped Competitors and Easy Apply 
 * Removed rows with null values
-then made the following changes and created the following variables:
+
+# Feature Engineering
+After cleaning the data, I made the following changes and created the following variables:
 * Parsed the seniority out of the Job Title 
 * Calculated the average salary based on the Salary Estimate 
 * Parsed rating out of company text
-* Parsed the state code out of location 
-* Parsed the headquarters state code out of headquarters 
+* Made a new column for company state
+* Added a column for if the job was at the company’s headquarters
+* Transformed founded date into age of company
+* Made columns for if different skills were listed in the job description:
+  * Python
+  * Tableau
+  * Excel
+  * SQL
+  * Spark
+  * Power BI
+
+# Exploratory Data Analysis
+I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from my analysis.
+
