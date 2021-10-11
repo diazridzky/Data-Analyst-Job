@@ -32,7 +32,7 @@ After importing the data, I needed to clean it up by doing the following:
 
 # Feature Engineering
 After cleaning the data, I made the following changes and created the following variables:
-* Parsed the seniority out of the Job Title 
+* Parsed seniority out of Job Title 
 * Calculated the average salary based on the Salary Estimate 
 * Parsed rating out of company text
 * Made a new column for company state
