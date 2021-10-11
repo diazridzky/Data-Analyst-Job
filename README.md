@@ -48,6 +48,7 @@ After cleaning the data, I made the following changes and created the following 
 
 # Exploratory Data Analysis
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from my analysis.
+
 ![salary_state](https://user-images.githubusercontent.com/60106788/136734584-363f1586-d42b-401a-a209-5b4777d6d23b.PNG)
 ![Jobs_loc_states](https://user-images.githubusercontent.com/60106788/136734186-be18259b-958c-48b6-ab4e-8bec6f683f86.png)
 ![rating_sector](https://user-images.githubusercontent.com/60106788/136734436-31550a69-88b7-42fa-b402-b69c52e7734b.PNG)
