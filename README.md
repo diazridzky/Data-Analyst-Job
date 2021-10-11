@@ -55,3 +55,16 @@ I looked at the distributions of the data and the value counts for the various c
 ![revenue_age](https://user-images.githubusercontent.com/60106788/136734435-ca288452-fde0-4e99-af05-f2d951bf5b1f.PNG)
 ![tools](https://user-images.githubusercontent.com/60106788/136734586-cb298892-2a77-41de-8cce-66ee4594431f.PNG)
 
+# Model Building
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 30%.
+
+I tried three different models and evaluated them using MAE, MSE, and RMSE. I picked MAE, MSE, and RMSE because I can compare each metrics for each models. Here are the three models I tried:
+* Decision Tree - Baseline for the model (I used cross validation only because decision tree isn't an ensemble)
+* Random Forest - Because many trees is better than a tree (I used GridSearchCV to reach the best model)
+* Gradient Boost - I thought that this would be a good fit, since this algorithm builds on weak learners (I used GridSearchCV to reach the best model)
+
+I tried linear regression but then I get an overfit model that's worse for predicting future data, this happened because there are many categorical variables.
+
+# Model Performance
+The Gradient Boost model surpassed the other algorithms on the test sets.
+![eval](https://user-images.githubusercontent.com/60106788/136768877-c923b9af-ecf1-4647-95c7-ababa8917847.PNG)
