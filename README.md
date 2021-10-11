@@ -66,6 +66,6 @@ I tried three different models and evaluated them using MAE, MSE, and RMSE. I pi
 I tried linear regression but then I get an overfit model that's worse for predicting future data, this happened because there are many categorical variables.
 
 # Model Performance
-The Gradient Boost model surpassed the other algorithms on the test sets.
+The Gradient Boost model surpassed other algorithms on the test sets.
 
 ![eval](https://user-images.githubusercontent.com/60106788/136768877-c923b9af-ecf1-4647-95c7-ababa8917847.PNG)
