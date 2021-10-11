@@ -26,7 +26,7 @@ Link to the dataset: https://www.kaggle.com/andrewmvd/data-analyst-jobs
 
 # Data Cleaning
 After importing the data, I needed to clean it up by doing the following:
-* Replaced the -1 (Which seems like a bug when the data was inputted or probably human error) with NaN 
+* Replaced -1 (Which seems like a bug when the data was inputted or probably human error) with NaN 
 * Dropped Competitors and Easy Apply 
 * Removed rows with null values
 
