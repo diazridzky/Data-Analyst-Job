@@ -1,5 +1,5 @@
 # Data Analyst Salary Research: Project Overview
-I perform an analysis on important features such as the average data analyst salaries in every state, most used tools for data analysts, and size of employees of every company. I also perform a prediction on Data Analyst salary to help data analysts consider the salary they want and negotiate their income when they get a job.
+I perform an analysis on important features such as the average data analyst salaries, most used tools for data analysts, and top states for data analyst jobs. I also perform a prediction on Data Analyst salary to help data analysts consider the salary they want and negotiate their income when they get a job.
 
 Link to the dataset: https://www.kaggle.com/andrewmvd/data-analyst-jobs
 
