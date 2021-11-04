@@ -30,7 +30,6 @@ After importing the data, I needed to clean it up by doing the following:
 * Dropped Competitors and Easy Apply 
 * Removed rows with null values
 
-# Feature Engineering
 After cleaning the data, I made the following changes and created the following variables:
 * Parsed seniority out of Job Title 
 * Calculated the average salary based on the Salary Estimate 
@@ -49,7 +48,8 @@ After cleaning the data, I made the following changes and created the following 
 # Exploratory Data Analysis
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from my analysis.
 
-![salary_state](https://user-images.githubusercontent.com/60106788/136734584-363f1586-d42b-401a-a209-5b4777d6d23b.PNG)
+![seniority](https://user-images.githubusercontent.com/60106788/140320054-5ee8057f-3015-489e-9680-22a16bd51183.PNG)
+![ownership](https://user-images.githubusercontent.com/60106788/140319860-80812828-5024-45ad-a5a3-ad083c794be5.PNG)
 ![Jobs_loc_states](https://user-images.githubusercontent.com/60106788/136734186-be18259b-958c-48b6-ab4e-8bec6f683f86.png)
 ![rating_sector](https://user-images.githubusercontent.com/60106788/136734436-31550a69-88b7-42fa-b402-b69c52e7734b.PNG)
 ![revenue_age](https://user-images.githubusercontent.com/60106788/136734435-ca288452-fde0-4e99-af05-f2d951bf5b1f.PNG)
