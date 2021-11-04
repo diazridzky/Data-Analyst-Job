@@ -60,7 +60,7 @@ First, I transformed the categorical variables into dummy variables. I also spli
 
 I tried three different models and evaluated them using MAE, MSE, and RMSE. I picked MAE, MSE, and RMSE because I can compare each metrics for each models. Here are the three models I tried:
 * Decision Tree - Baseline for the model (I only used cross validation because it doesn't have an estimator)
-* Random Forest - Because many trees is better than a tree (I used GridSearchCV to reach the best model)
+* Random Forest - Because many trees is better than a single tree (I used GridSearchCV to reach the best model)
 * Gradient Boost - I thought that this would be a good fit, since it builds on weak learners (I used GridSearchCV to reach the best model)
 
 I tried linear regression but then I get an overfit model that's worse for predicting future data, this happened because there are many categorical variables.
