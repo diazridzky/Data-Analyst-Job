@@ -58,7 +58,7 @@ I looked at the distributions of the data and the value counts for the various c
 # Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 30%.
 
-I tried three different models and evaluated them using MAE, MSE, and RMSE. I picked MAE, MSE, and RMSE because I can compare each metrics for each models. Here are the three models I tried:
+I tried three different models and evaluated them using MAE, MSE, and RMSE. I picked MAE, MSE, and RMSE because I could compare each metrics for each models. Here are the three models I tried:
 * Decision Tree - Baseline for the model (I only used cross validation because it doesn't have an estimator)
 * Random Forest - Because many trees is better than a single tree (I used GridSearchCV to reach the best model)
 * Gradient Boost - I thought that this would be a good fit, since it builds on weak learners (I used GridSearchCV to reach the best model)
