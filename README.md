@@ -5,7 +5,7 @@ Link to the dataset: https://www.kaggle.com/andrewmvd/data-analyst-jobs
 
 # Code and Libraries Used
 * Python Version: 3.9.5
-* Packages: numpy, pandas, matplotlib, seaborn, sklearn
+* Packages: NumPy, pandas, Matplotlib, seaborn, scikit-learn
 
 # Features 
 * Job Title
