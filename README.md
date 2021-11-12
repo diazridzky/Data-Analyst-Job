@@ -49,7 +49,9 @@ After cleaning the data, I made the following changes and created the following 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from my analysis.
 
 ![seniority](https://user-images.githubusercontent.com/60106788/140320054-5ee8057f-3015-489e-9680-22a16bd51183.PNG)
+
 ![Jobs_loc_states](https://user-images.githubusercontent.com/60106788/136734186-be18259b-958c-48b6-ab4e-8bec6f683f86.png)
+![ownership](https://user-images.githubusercontent.com/60106788/141471187-6b28e4c6-6e90-4645-82b3-c5e85cd6ccb9.PNG)
 ![rating_sector](https://user-images.githubusercontent.com/60106788/136734436-31550a69-88b7-42fa-b402-b69c52e7734b.PNG)
 ![revenue_age](https://user-images.githubusercontent.com/60106788/136734435-ca288452-fde0-4e99-af05-f2d951bf5b1f.PNG)
 ![tools](https://user-images.githubusercontent.com/60106788/136734586-cb298892-2a77-41de-8cce-66ee4594431f.PNG)
