@@ -45,7 +45,7 @@ After cleaning the data, I made the following changes and created the following 
   * Spark
   * Power BI
 
-# Exploratory Data Analysis
+# Exploratory Data Analysis & Data Visualization
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from my analysis.
 
 ![seniority](https://user-images.githubusercontent.com/60106788/140320054-5ee8057f-3015-489e-9680-22a16bd51183.PNG)
