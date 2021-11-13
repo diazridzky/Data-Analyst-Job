@@ -30,7 +30,7 @@ After importing the data, I needed to clean it up by doing the following:
 * Dropped Competitors and Easy Apply 
 * Removed rows with null values
 
-After cleaning the data, I made the following changes and created the following variables:
+After cleaning the data, I made the following changes:
 * Parsed seniority out of Job Title 
 * Calculated the average salary based on the Salary Estimate 
 * Parsed rating out of company text
