@@ -7,7 +7,7 @@ Link to the dataset: https://www.kaggle.com/andrewmvd/data-analyst-jobs
 * Python Version: 3.9.5
 * Packages: NumPy, pandas, Matplotlib, seaborn, scikit-learn
 
-# Features 
+# Columns 
 * Job Title
 * Salary Estimate
 * Job Description
