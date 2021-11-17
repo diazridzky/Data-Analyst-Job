@@ -59,7 +59,7 @@ I looked at the distributions of the data and the value counts for the various c
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 30%.
 
 I tested three different models (I tried linear regression but then I get an overfit model that's worse for predicting future data, this happened because there are many categorical variables) and evaluated them using MAE, MSE, and RMSE. I picked MAE, MSE, and RMSE because I could compare each metrics for each models. Here are the three models I tried:
-* Decision Tree - Just a test to see if it's better than linear regression(I only used cross validation because it doesn't have an estimator)
+* Decision Tree - Just a test to see if it's better than linear regression (I only used cross validation because it doesn't have an estimator)
 * Random Forest - Because many trees is better than a single tree (I used GridSearchCV to reach the best model)
 * Gradient Boost - I thought that this would be a good fit, since it builds on weak learners (I used GridSearchCV to reach the best model)
 
